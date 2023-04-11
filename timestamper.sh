@@ -23,7 +23,6 @@ for folder in "./$DIRECTORY/"*; do
 
     # Extract the timestamp from the filename
     TIMESTAMP=$(basename "$file" ."$FILETYPE" | sed 's/.*_\(.*\)/\1/')
-    # echo $file
     # echo $TIMESTAMP
 
     # Convert the timestamp to a format that touch can understand
