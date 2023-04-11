@@ -20,3 +20,8 @@ Having this available, I wrote a script to pull that out and update the file's t
     `sh timestamper.sh`
 
 5. Check your files, and they should be timestamped properly now! :)
+
+## Some notes
+
+- Currently this script is only guaranteed to work on Mac. On Windows you might have to install a few extra command line packages to run it (working on making it work for both).
+- If you run for one FILETYPE, if any others exist in the directory (Screenshots or Video Clips) they'll throw errors. You can ignore, but just make sure to switch the FILETYPE and run again to get their timestamps to update also.
