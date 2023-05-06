@@ -1,8 +1,10 @@
 #!/bin/bash
 
-#### Don't touch below unless changes are needed ####
+# Uncomment the folder you want to process, and make sure to comment the other
+DIRECTORY="Screenshots"
+# DIRECTORY="Video Clips"
 
-DIRECTORY="Media"
+#### Don't touch below unless changes are needed ####
 
 for folder in "./$DIRECTORY/"*; do
 
