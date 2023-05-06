@@ -3,7 +3,7 @@
 ## What is it for?
 When exporting media onto a USB from a PlayStation, it does not come over with the proper timestamp of when it was actually created. However, the media's file name has the timestamp inside it.
 
-Having this available, I wrote a script to pull that out and update the file's timestamp. The script will iterate through each sub folder you place in the Screenshots or Video Clips folder and update all the timestamps.
+Having this available, I wrote a script to pull that out and update the file's timestamp. The script will iterate through each sub folder you place in the Screenshots or Video Clips folder and update all the timestamps. This should work for any file that has its timestamp in the file name in the format `YYYYMMDDHHMMss`, for example `20230101103813` (01/01/2023 10:38:13).
 
 ## How to use
 
